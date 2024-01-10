@@ -12,7 +12,7 @@ class RabbitMQ {
     this.channel = await this.connection.createChannel();
     this.channel.assertQueue(this.queue, { durable: false });
 
-    // Gracefully close the connection when exiting using ctrl + c
+    // Gracefully close the connection when ctrl + c 
     process.once("SIGINT", () => {
       this.connection.close();
     });
