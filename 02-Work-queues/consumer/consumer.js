@@ -20,8 +20,8 @@ const onMessage = (msg) => {
       );
   }, 1000 * (delay ?? 1));
 };
-const consumer = new RabbitMQ(url, queue, onMessage);
+const rabbit = new RabbitMQ(url, queue, onMessage);
 
 (async () => {
-  await consumer.consume();
+  await rabbit.consume();
 })();

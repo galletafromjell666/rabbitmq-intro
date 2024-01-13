@@ -8,8 +8,8 @@ const onMessage = (msg) => {
     `${getCurrentDate()}: Message Received: ${msg.content.toString()}`
   );
 };
-const consumer = new RabbitMQ(url, queue, onMessage);
+const rabbit = new RabbitMQ(url, queue, onMessage);
 
 (async () => {
-	await consumer.consume();
+	await rabbit.consume();
 })();
