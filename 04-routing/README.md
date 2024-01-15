@@ -2,7 +2,7 @@
 
 Direct exchanges act as precise message routers in RabbitMQ. They deliver messages only to queues with matching routing keys, ensuring one-on-one delivery.
 
-![RabbitMQ DirectExchange](https://github.com/galletafromjell666/rabbitmq-intro/blob/c9e9fc279deeb7923f73e071f4ba6db22b90c209/04/04.png)
+![RabbitMQ Direct Exchange](https://github.com/galletafromjell666/rabbitmq-intro/blob/c9e9fc279deeb7923f73e071f4ba6db22b90c209/04/04.png)
 
 ### Key points
 
