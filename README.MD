@@ -1,5 +1,6 @@
 ## rabbitmq-intro 
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+
 Welcome to my repo! These notes are a personal compilation crafted during my exploration of RabbitMQ.
 
 
