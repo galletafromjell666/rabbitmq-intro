@@ -42,7 +42,7 @@ To get started, ensure that you have Docker, Node.js, and npm installed on your 
 docker run -d -p 15672:15672 -p 5672:5672 -p 5671:5671 --hostname rabbitmq --name rabbitmq-container rabbitmq:3-management
 ```
 5. Move to any topic and start both the producer and consumer using:
-   - For the consumer: node consumer.js
-   - For the producer: node producer.js
+   - For the consumer: ```node consumer.js```
+   - For the producer: ```node producer.js```
 
 Happy messaging! 🐰
